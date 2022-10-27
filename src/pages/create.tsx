@@ -49,6 +49,7 @@ const CreateQuestionForm = () => {
     <div className="antialiased text-gray-100 p-6 min-h-screen">
       <Head>
         <title>Create | Anketo</title>
+        <link rel="shortcut icon" href="/anketo.svg" />
       </Head>
       <header className="header flex w-full justify-between">
         <Link href={"/"}>

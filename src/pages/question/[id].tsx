@@ -42,6 +42,7 @@ const QuestionsPageContent: React.FC<{ id: string }> = ({ id }) => {
     <div className="p-6 min-h-screen w-screen items-stretch">
       <Head>
         <title>Question | Anketo</title>
+        <link rel="shortcut icon" href="/anketo.svg" />
       </Head>
       <header className="flex w-full justify-between mb-10 items-center">
         <Link href={"/"}>
