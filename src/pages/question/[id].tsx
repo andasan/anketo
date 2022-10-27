@@ -39,7 +39,7 @@ const QuestionsPageContent: React.FC<{ id: string }> = ({ id }) => {
   if (data && data != undefined) getTotalVotes(data.votes);
 
   return (
-    <div className="p-6 min-h-screen w-screen items-stretch border">
+    <div className="p-6 min-h-screen w-screen items-stretch">
       <Head>
         <title>Question | Anketo</title>
       </Head>
