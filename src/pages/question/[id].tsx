@@ -39,13 +39,13 @@ const QuestionsPageContent: React.FC<{ id: string }> = ({ id }) => {
   if (data && data != undefined) getTotalVotes(data.votes);
 
   return (
-    <div className="p-6 min-h-screen w-screen container">
+    <div className="p-6 min-h-screen w-screen items-stretch border">
       <Head>
-        <title>Question | OnAVote</title>
+        <title>Question | Anketo</title>
       </Head>
       <header className="flex w-full justify-between mb-10 items-center">
         <Link href={"/"}>
-          <h1 className="text-4xl font-bold cursor-pointer">OnAVote</h1>
+          <h1 className="text-4xl font-bold cursor-pointer">Anketo</h1>
         </Link>
         {data?.isOwner && (
           <div className="bg-gray-700 rounded-md p-3">You made this!</div>

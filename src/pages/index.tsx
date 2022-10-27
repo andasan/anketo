@@ -8,7 +8,7 @@ import { trpc } from "../utils/trpc";
 export default function Home() {
   const [showToast, setShowToast] = React.useState(false);
   const { data, isLoading } = trpc.useQuery(["questions.get-all-my-questions"]);
-
+  
   const url = process.env.VERCEL_URL
     ? `https://${process.env.VERCEL_URL}`
     : `http://localhost:${process.env.PORT ?? 3000}`;
@@ -29,10 +29,10 @@ export default function Home() {
   return (
     <div className="p-6 min-h-screen w-screen items-stretch relative">
       <Head>
-        <title>Home | OnAVote</title>
+        <title>Home | Anketo</title>
       </Head>
       <header className="header flex w-full justify-between items-center">
-        <h1 className="text-4xl font-bold">OnAVote</h1>
+        <h1 className="text-4xl font-bold">Anketo</h1>
         <Link href="/create">
           <a className="bg-gray-300 rounded text-gray-800 p-4">
             Create New Question
