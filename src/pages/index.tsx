@@ -30,6 +30,7 @@ export default function Home() {
     <div className="p-6 min-h-screen w-screen items-stretch relative">
       <Head>
         <title>Home | Anketo</title>
+        <link rel="shortcut icon" href="/anketo.svg" />
       </Head>
       <header className="header flex w-full justify-between items-center">
         <h1 className="text-4xl font-bold">Anketo</h1>
