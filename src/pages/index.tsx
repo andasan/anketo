@@ -29,11 +29,11 @@ export default function Home() {
   return (
     <div className="p-6 min-h-screen w-screen items-stretch relative">
       <Head>
-        <title>Home | Anketo</title>
+        <title>Home | Ankēto</title>
         <link rel="shortcut icon" href="/anketo.svg" />
       </Head>
       <header className="header flex w-full justify-between items-center">
-        <h1 className="text-4xl font-bold">Anketo</h1>
+        <h1 className="text-4xl font-bold">Ankēto</h1>
         <Link href="/create">
           <a className="bg-gray-300 rounded text-gray-800 p-4">
             Create New Question

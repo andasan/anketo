@@ -48,12 +48,12 @@ const CreateQuestionForm = () => {
   return (
     <div className="antialiased text-gray-100 p-6 min-h-screen">
       <Head>
-        <title>Create | Anketo</title>
+        <title>Create | Ankēto</title>
         <link rel="shortcut icon" href="/anketo.svg" />
       </Head>
       <header className="header flex w-full justify-between">
         <Link href={"/"}>
-          <h1 className="text-4xl font-bold cursor-pointer">Anketo</h1>
+          <h1 className="text-4xl font-bold cursor-pointer">Ankēto</h1>
         </Link>
       </header>
       <div className="max-w-xl mx-auto py-12 md:max-w-2xl">
